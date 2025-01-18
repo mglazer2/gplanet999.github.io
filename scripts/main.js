@@ -177,7 +177,7 @@ function populateTable(trainees) {
 function populateTableEntry(trainee) {
   // eliminated will have value "eliminated" only if trainee is eliminated and showEliminated is true, otherwise this is ""
   let eliminated = (showEliminated && trainee.eliminated) && "eliminated";
-  let top9 = (showTop9 && trainee.top9) && "top9";
+  let top99 = (showTop99 && trainee.top99) && "top99";
   const tableEntry = `
   <div class="table__entry ${eliminated}">
     <div class="table__entry-icon">
